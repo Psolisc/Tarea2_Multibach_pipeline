@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Ejecutar Python Script') {
             steps {
-                powershell "python Nested Triangle_Patricia Solis.py"
+                bat "python Nested Triangle_Patricia Solis.py"
             }
         }
     }
