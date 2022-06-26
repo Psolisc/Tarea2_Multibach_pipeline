@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Ejecutar Python Script') {
             steps {
-                shell "python Nested Triangle_Patricia Solis.py"
+                sh "python Nested Triangle_Patricia Solis.py"
             }
         }
     }
